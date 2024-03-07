@@ -2,6 +2,7 @@ const About = () => {
     return (
         <div>
             <h1>This is the Team Phoenix About page</h1>
+            <img src="%PUBLIC_URL%/Pyre-png.png" alt="Team Phoenix" />
             <h2>Our Team Members:</h2>
             <ul>
                 <li>

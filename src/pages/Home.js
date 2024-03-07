@@ -1,8 +1,8 @@
 const Home = () => {
     return (
         <div>
-            <h1>Home page</h1>
-            <img src="https://www.faunaadvice.com/wp-content/uploads/2023/09/15242.webp" alt="Team Phoenix Project 3" />
+            <h1>Team Phoenix Home Page</h1>
+            <img src="https://cdn.wallpapersafari.com/95/6/npGvi6.jpg" alt="Team Phoenix Project 3" />
         </div>
     );
 };

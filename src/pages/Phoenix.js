@@ -16,3 +16,16 @@ const Phoenix = () => {
 };
 
 export default Phoenix;
+
+function RedirectExample() {
+    useEffect(() => {
+      const timeout = setTimeout(() => {
+        // 👇️ redirects to an external URL
+        window.location.replace('https://main.d1xrmgffcpyfxy.amplifyapp.com/');
+      }, 3000);
+  
+      return () => clearTimeout(timeout);
+    }, []);
+  
+    return <>Will redirect in 3 seconds...</>;
+  }

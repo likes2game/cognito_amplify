@@ -14,3 +14,5 @@ const Phoenix = () => {
         </Authenticator>
     );
 };
+
+export default Phoenix;
